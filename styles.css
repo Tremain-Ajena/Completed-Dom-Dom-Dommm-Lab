@@ -1,0 +1,21 @@
+.squareHolder {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.squareHolder div {
+    border: 1px solid #008000;
+    background-color: black;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    color: transparent;
+}
+
+.square:hover {
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
